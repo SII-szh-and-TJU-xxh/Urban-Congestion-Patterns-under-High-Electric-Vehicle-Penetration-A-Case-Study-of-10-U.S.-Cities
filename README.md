@@ -174,9 +174,9 @@ fun(
 
 The script calculates Global Moran's I using the absolute relative change in link-level volume-to-capacity ratio (VOC) between the 0% and 100% EV penetration scenarios:
 
-$$
+```math
  x_l = \left|\frac{VOC_{l,100\%}-VOC_{l,0\%}}{VOC_{l,0\%}+10^{-12}}\right|
-$$
+```
 
 | Parameter | Description |
 | --- | --- |
